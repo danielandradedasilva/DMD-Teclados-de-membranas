@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+:root {
+    --primary: #0d6efd;
+    --secondary: #e10022;
+    --dark: #21252f;
+    --white: #ffffff;
+    --white-60: #e2e2e2;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sora, "sans-serif";
+    line-height: 1.7;
+    color: var(--body);
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgba(35, 35, 35, 0.227);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgba(126, 126, 126, 0.3);
+}
+
+.navbar .logo {
+    width: 160px;
+    height: 50px;
+}
+
+.navbar .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar .btn-secondary {
+    background-color: var(--secondary);
+    border: var(--secondary);
+    border-radius: 8px;
+    width: 15%;
+    font-weight: 400;
+    transition: .2s ease;
+}
+
+.navbar .btn-secondary:hover {
+    background-color: var(--white);
+    border: var(--white);
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.home {
+    background-image: url(../img/jpg/bg-home.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.inicial-home::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 26, 29, 0.8);
+    z-index: -1;
+}
+
+.inicial-home .container-content {
+    margin-top: 50px;
+}
+
+.container-content p {
+    font-size: 1.1rem;
+}
+
+.inicial-home .btn-secondary {
+    background-color: var(--secondary);
+    border: var(--secondary);
+    width: 40%;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
+    transition: .3s;
+}
+
+.inicial-home .btn-secondary:hover {
+    background-color: var(--white);
+    border: var(--white);
+    color: var(--secondary);
+}
+
+section.secundaria-home {
+    margin: auto;
+    max-width: 1150px;
+    min-width: 320px;
+}
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.iconbox {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.iconbox>img {
+    width: 100%;
+    height: 100%;
+}
+
+.secundaria-content {
+    font-size: 1.2rem;
+}
