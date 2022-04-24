@@ -75,8 +75,8 @@ a {
 
 .navbar i {
     cursor: pointer;
-    color: var(--white);
-    font-size: 40px;
+    color: var(--secondary);
+    font-size: 50px;
 }
 
 .navbar .nav-link {
@@ -349,7 +349,7 @@ section.secundaria-home h2 {
         margin-bottom: 55px;
     }
     .inicial-home {
-        height: 660px;
+        height: 670px;
     }
     .cta {
         padding-top: 70px;
