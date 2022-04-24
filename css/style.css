@@ -120,7 +120,7 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/jpg/bg-home.jpg);
     background-position: center;
     background-size: cover;
-    height: 630px;
+    height: 640px;
 }
 
 .container-content p {
@@ -137,7 +137,6 @@ a {
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
     transition: .3s;
-    margin-bottom: 20px
 }
 
 .inicial-home .btn-secondary:hover {
