@@ -263,9 +263,12 @@
     }
     
     .produtos-home p.fsc-p {
-        border: 1px solid red;
+        border: 1px solid rgb(0, 255, 162);
         margin: auto;
-        width: 80%;
+        width: 90%;
+        height: max-content;
+        display: flex;
+        align-items: center;
     }
     
     .project-wrapper {
