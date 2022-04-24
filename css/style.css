@@ -267,10 +267,7 @@
         font-size: 2.2rem;
     }
     
-    .produtos-home .secundaria-content {
-        width: 90%;
-        margin: auto;
-        font-size: 1.2rem;
+    .secundaria-content {
         font-size: 1.15rem;
         color: rgba(0, 0, 0, 0.923);
         font-weight: 500;
@@ -352,7 +349,7 @@
             margin-bottom: 55px;
         }
         .inicial-home {
-            height: 670px;
+            height: 740px;
         }
         .cta {
             padding-top: 70px;
