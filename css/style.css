@@ -75,8 +75,8 @@ a {
 
 .navbar i {
     cursor: pointer;
-    color: var(--secondary);
-    font-size: 50px;
+    color: var(--white);
+    font-size: 45px;
 }
 
 .navbar .nav-link {
