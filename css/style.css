@@ -97,19 +97,6 @@ a {
     transition: .2s ease;
 }
 
-@media (max-width:990px) {
-    .navbar-collapse {
-        height: fit-content;
-    }
-    .navbar-nav {
-        margin-top: 30px;
-    }
-    .navbar .btn-secondary {
-        margin-top: 8px;
-        margin-bottom: 55px;
-    }
-}
-
 .navbar .btn-secondary:hover {
     background-color: var(--white);
     border: var(--white);
@@ -351,4 +338,35 @@ section.secundaria-home h2 {
 .project-wrapper:hover img {
     transform: scale(1.2);
     filter: blur(2px);
+}
+
+@media (max-width:990px) {
+    .navbar-collapse {
+        height: fit-content;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar .btn-secondary {
+        margin-top: 8px;
+        margin-bottom: 55px;
+    }
+    .inicial-home {
+        height: 650px;
+    }
+    .cta {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+        background-position: center;
+        overflow: hidden;
+        border-top: 3px solid rgb(225, 0, 34);
+        border-bottom: 3px solid rgb(225, 0, 34);
+    }
+    .produtos-home::before {
+        width: 200px;
+        height: 200px;
+        top: -30px;
+        left: -120px;
+    }
 }
