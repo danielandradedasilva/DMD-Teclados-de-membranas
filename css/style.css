@@ -63,6 +63,7 @@ a {
     backdrop-filter: blur(50px);
     position: fixed;
     width: 100%;
+    height: fit-content;
     border-bottom: 1px solid rgba(126, 126, 126, 0.3);
     z-index: 999;
 }
@@ -74,7 +75,6 @@ a {
 
 .navbar button {
     background-color: transparent;
-    border: none;
 }
 
 .navbar button i {
@@ -97,6 +97,18 @@ a {
     transition: .2s ease;
 }
 
+@media (max-width:990px) {
+    .navbar-collapse {
+        height: fit-content;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar .btn-secondary {
+        margin-bottom: 55px;
+    }
+}
+
 .navbar .btn-secondary:hover {
     background-color: var(--white);
     border: var(--white);
@@ -108,7 +120,7 @@ a {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/jpg/bg-home.jpg);
     background-position: center;
     background-size: cover;
-    height: 625px;
+    height: 630px;
 }
 
 .container-content p {
@@ -125,6 +137,7 @@ a {
     border-radius: 8px;
     box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
     transition: .3s;
+    margin-bottom: 20px
 }
 
 .inicial-home .btn-secondary:hover {
@@ -263,8 +276,8 @@ section.secundaria-home h2 {
 
 .produtos-home::before {
     content: '';
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     top: -30px;
     left: -120px;
     position: absolute;
@@ -281,6 +294,7 @@ section.secundaria-home h2 {
     height: 100%;
     position: relative;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 .project-wrapper::after {
