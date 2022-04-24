@@ -73,11 +73,8 @@ a {
     height: 50px;
 }
 
-.navbar button {
-    background-color: transparent;
-}
-
-.navbar button i {
+.navbar i {
+    cursor: pointer;
     color: var(--white);
     font-size: 40px;
 }
@@ -352,7 +349,7 @@ section.secundaria-home h2 {
         margin-bottom: 55px;
     }
     .inicial-home {
-        height: 650px;
+        height: 660px;
     }
     .cta {
         padding-top: 70px;
