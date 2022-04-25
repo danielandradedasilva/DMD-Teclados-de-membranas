@@ -91,16 +91,18 @@
         color: #fff;
     }
     
-    .navbar .btn-secondary {
+    .navbar .btn-secondary-c {
         background-color: var(--secondary);
         border: var(--secondary);
         border-radius: 8px;
         width: 120px;
-        font-weight: 400;
+        padding: 4px;
+        color: var(--white);
+        font-weight: 500;
         transition: .2s ease;
     }
     
-    .navbar .btn-secondary:hover {
+    .navbar .btn-secondary-c:hover {
         background-color: var(--white);
         border: var(--white);
         color: var(--secondary);
@@ -337,20 +339,21 @@
     
     @media (max-width:990px) {
         .navbar-collapse {
-            height: fit-content;
+            height: 240px;
         }
         .navbar-nav {
             margin-top: 30px;
         }
-        .navbar .btn-secondary {
+        .navbar .btn-secondary-c {
             margin-top: 8px;
-            margin-bottom: 55px;
             font-weight: 600;
+            padding: 4px;
             background-color: transparent;
         }
-        .navbar .btn-secondary:hover {
-            background-color: transparent;
+        .navbar .btn-secondary-c:hover {
             color: var(--white);
+            font-weight: 600;
+            background-color: transparent;
         }
         .inicial-home {
             height: 700px;
