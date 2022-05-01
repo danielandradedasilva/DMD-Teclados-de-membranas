@@ -40,9 +40,13 @@
         font-weight: 700;
     }
     
+    h1 {
+        color: var(--primary);
+    }
+    
     .fsc-p {
         font-size: 18px;
-        color: rgba(0, 0, 0, 0.923);
+        color: rgb(0, 0, 0);
         font-weight: 500;
     }
     
@@ -65,18 +69,34 @@
     }
     
     .navbar {
-        background-color: rgba(0, 0, 0, 0.6);
-        backdrop-filter: blur(50px);
+        margin-top: 20px;
         position: fixed;
         width: 100%;
-        height: fit-content;
-        border-bottom: 1px solid rgba(126, 126, 126, 0.3);
+        height: max-content;
+        z-index: 999;
+        /**/
+    }
+    
+    .navbar-person {
+        background-color: var(--dark);
+        border-bottom: 1px solid var(--body);
+        margin-top: 0px;
+        position: fixed;
+        width: 100%;
+        height: max-content;
         z-index: 999;
     }
     
     .navbar .logo {
+        width: 180px;
+        height: 70px;
+        /**/
+    }
+    
+    #logo-person {
         width: 160px;
         height: 50px;
+        /**/
     }
     
     .navbar i {
@@ -94,19 +114,19 @@
     .navbar .btn-secondary-c {
         background-color: var(--secondary);
         border: var(--secondary);
-        border-radius: 8px;
+        border-radius: 5px;
         width: 120px;
+        height: 35px;
         padding: 4px;
         color: var(--white);
-        font-weight: 500;
-        transition: .2s ease;
+        font-weight: 600;
+        transition: .4s ease;
     }
     
     .navbar .btn-secondary-c:hover {
         background-color: var(--white);
         border: var(--white);
         color: var(--secondary);
-        font-weight: 500;
     }
     
     .inicial-home {
@@ -114,6 +134,30 @@
         background-position: center;
         background-size: cover;
         height: 640px;
+    }
+    
+    .h1-top {
+        animation: backInDown 2s ease-in-out;
+    }
+    
+    .p-top {
+        animation: backInLeft 2s ease;
+    }
+    
+    .coll:nth-child(1) {
+        animation: backInRight 2s ease-in-out;
+    }
+    
+    .coll:nth-child(2) {
+        animation: backInRight 2s ease-in-out;
+    }
+    
+    .coll:nth-child(3) {
+        animation: backInRight 3s ease-in-out;
+    }
+    
+    .coll:nth-child(4) {
+        animation: backInRight 3s ease-in-out;
     }
     
     .inicial-home .btn-secondary {
@@ -124,6 +168,7 @@
         margin-top: 20px;
         border-radius: 8px;
         box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
+        animation: backInUp 2s ease-in-out;
         transition: .3s;
     }
     
@@ -136,7 +181,7 @@
     section.secundaria-home {
         padding-top: 120px;
         padding-bottom: 120px;
-        background-image: linear-gradient(to top, var(--white-60) 50%, rgb(146, 146, 146));
+        background-image: linear-gradient(to top, #f6f9fe 50%, rgb(220, 220, 220));
     }
     
     section.secundaria-home h2 {
@@ -216,8 +261,8 @@
         background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
         background-position: center;
         background-size: cover;
-        border-top: 3px solid rgb(225, 0, 34);
-        border-bottom: 3px solid rgb(225, 0, 34);
+        border-top: 5px solid rgb(225, 0, 34);
+        border-bottom: 5px solid rgb(225, 0, 34);
     }
     
     .cta h2 {
@@ -229,6 +274,14 @@
         font-size: 1.1rem;
         font-weight: 500;
         text-align: start;
+    }
+    
+    .conteiner-box-txt {
+        opacity: 0;
+    }
+    
+    .cta-txt {
+        animation: fadeInLeft 2s ease-in-out;
     }
     
     .cta .btn-cta {
@@ -246,7 +299,7 @@
         height: 100%;
         position: relative;
         overflow: hidden;
-        background-image: linear-gradient(to top, var(--white-60) 50%, rgb(146, 146, 146));
+        background-image: linear-gradient(to top, #f6f9fe 50%, rgb(220, 220, 220));
     }
     
     .produtos-home::before {
@@ -256,7 +309,7 @@
         top: -30px;
         left: -120px;
         position: absolute;
-        background-color: #ff0000;
+        background-color: rgb(225, 0, 34);
         border-radius: 100%;
     }
     
@@ -265,9 +318,8 @@
     }
     
     .produtos-home p.fsc-p {
-        border: 1px solid rgb(0, 255, 162);
         margin: auto;
-        width: 90%;
+        width: 60%;
         height: max-content;
         display: flex;
         align-items: center;
@@ -337,9 +389,18 @@
         filter: blur(2px);
     }
     
-    @media (max-width:990px) {
+    @media (max-width:991px) {
         .navbar-collapse {
             height: 240px;
+        }
+        .navbar {
+            margin-top: 0;
+            background-color: var(--dark);
+            border-bottom: 1px solid var(--body);
+        }
+        .navbar .logo {
+            width: 160px;
+            height: 50px;
         }
         .navbar-nav {
             margin-top: 30px;
