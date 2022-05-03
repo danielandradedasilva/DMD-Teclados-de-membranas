@@ -7,7 +7,7 @@ const animationClass = 'coll';
 
 
 function AnimeScroll() {
-    const windownTop = window.pageYOffset + 700;
+    const windownTop = window.pageYOffset + 600;
 
     target.forEach(function(e) {
         if ((windownTop) > e.offsetTop) {

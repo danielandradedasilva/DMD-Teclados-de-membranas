@@ -434,4 +434,7 @@
             top: -30px;
             left: -120px;
         }
+        .produtos-home p.fsc-p {
+            width: 100%;
+        }
     }
