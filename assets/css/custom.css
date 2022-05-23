@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+ :root {
+    --primary: #0d6efd;
+    --primary-two: #004ecb;
+    --secondary: #e10022;
+    --dark: #21252f;
+    --green-ligth: #f2fffd;
+    --dark-nav: #11252e;
+    --white: #ffffff;
+    --white-60: #e2e2e2;
+    --grey: #dddddd;
+    --border: #c3c3c3cc;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sora, "sans-serif";
+    line-height: 1.7;
+    color: var(--body);
+    background-color: rgba(221, 221, 221, 0.549);
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+h1 {
+    color: var(--primary);
+}
+
+.fsc-p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.glass-effect {
+    margin: auto;
+    background-color: rgba(235, 225, 225, 0.253);
+    backdrop-filter: blur(25px);
+    height: fit-content;
+    padding: 30px 30px;
+    border: 2px solid rgba(108, 108, 108, 0.3);
+    border-radius: 15px;
+}
+
+.navbar {
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    /**/
+}
+
+.navbar-person {
+    background-color: var(--green-ligth);
+    border-bottom: 1px solid var(--body);
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    transition: background-color ease-in-out .2s;
+}
+
+.navbar .logo {
+    width: 180px;
+    height: 70px;
+    /**/
+}
+
+#logo-person {
+    width: 160px;
+    height: 50px;
+    /**/
+}
+
+.navbar i {
+    cursor: pointer;
+    color: var(--secondary);
+    font-size: 45px;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    height: 38px;
+    font-weight: 600;
+    color: var(--primary);
+    border-bottom: 4px solid transparent;
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-two);
+    border-bottom: 4px solid var(--primary-two);
+}
+
+.navbar .btn-secondary-c {
+    background-color: var(--secondary);
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
+    width: 120px;
+    height: 35px;
+    padding: 4px;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+
+.navbar .btn-secondary-c:hover {
+    background-color: var(--white);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    color: var(--secondary);
+}
+
+.inicial-home {
+    background: linear-gradient(rgb(242, 255, 253)2%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url(../img/jpg/bg-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+}
+
+.p-top {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.h1-top {
+    animation: backInDown 2s ease-in-out;
+}
+
+.p-top {
+    animation: backInLeft 2s ease;
+}
+
+.coll:nth-child(1) {
+    animation: backInRight 2s ease-in-out;
+}
+
+.coll:nth-child(2) {
+    animation: backInRight 2s ease-in-out;
+}
+
+.coll:nth-child(3) {
+    animation: backInRight 3s ease-in-out;
+}
+
+.coll:nth-child(4) {
+    animation: backInRight 3s ease-in-out;
+}
+
+.inicial-home .btn-secondary {
+    background-color: var(--secondary);
+    border: var(--secondary);
+    width: 290px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
+    animation: backInUp 2s ease-in-out;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+
+.inicial-home .btn-secondary:hover {
+    background-color: var(--white);
+    border: var(--white);
+    color: var(--secondary);
+}
+
+
+/*8888888888888888888888888888888888888888888*/
+
+.secundaria-home {
+    background: linear-gradient(to bottom, var(--white-60), var(--green-ligth));
+    height: 700px;
+}
+
+.secundaria-home h2 {
+    font-size: 50px;
+}
+
+.secundaria-home p {
+    margin: 0 auto;
+    width: 950px;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--dark);
+}
+
+.secundaria-home h3 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+
+/*8888888888888888888888888888888888888888888*/
+
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top: 5px solid rgb(225, 0, 34);
+    border-bottom: 5px solid rgb(225, 0, 34);
+}
+
+.cta h2 {
+    font-size: 2.2rem;
+    text-align: start;
+}
+
+.cta p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: start;
+}
+
+.conteiner-box-txt {
+    opacity: 0;
+}
+
+.cta .btn-cta {
+    background-color: var(--secondary);
+    color: var(--white);
+}
+
+.cta .btn-cta:hover {
+    background-color: var(--white);
+    color: var(--secondary);
+}
+
+.footer {
+    border-top: 5px solid #0b1a20;
+    background-color: #11252e;
+}
+
+@media (max-width:992px) {
+    .navbar-collapse {
+        height: 280px;
+    }
+    .navbar {
+        margin-top: 0;
+        background-color: var(--green-ligth);
+        border-bottom: 1px solid var(--body);
+    }
+    .navbar .logo {
+        width: 160px;
+        height: 50px;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar .nav-link {
+        font-size: 18px;
+        color: var(--primary);
+        border-bottom: 0px solid transparent;
+    }
+    .navbar .nav-link:hover {
+        color: var(--primary-two);
+        border-bottom: 0px solid transparent;
+    }
+    .navbar .btn-secondary-c {
+        background-color: var(--green-ligth);
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+        width: 120px;
+        height: 35px;
+        padding: 4px;
+        color: var(--primary);
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .navbar .btn-secondary-c:hover {
+        color: var(--primary-two);
+        font-weight: 600;
+        box-shadow: none;
+        background-color: var(--green-ligth);
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-radius: 0px;
+    }
+    .inicial-home {
+        height: 700px;
+    }
+    .cta {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+        background-position: center;
+        overflow: hidden;
+        border-top: 3px solid rgb(225, 0, 34);
+        border-bottom: 3px solid rgb(225, 0, 34);
+    }
+    .produtos-home::before {
+        width: 200px;
+        height: 200px;
+        top: -30px;
+        left: -120px;
+    }
+    .produtos-home p.fsc-p {
+        width: 100%;
+    }
+    .secundaria-home p {
+        margin: 0 auto;
+        width: auto;
+        padding: 8px;
+    }
+}

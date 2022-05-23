@@ -1,0 +1,7 @@
+:root {
+    --grey-ligth: rgb(223, 223, 223);
+    --orange-ligth: rgb(255, 151, 90);
+    --blue-ligth: #0d6efd;
+    --blue-dark: #0900b9;
+    --transparent: rgba(255, 151, 90, 0);
+}
