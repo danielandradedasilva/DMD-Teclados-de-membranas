@@ -222,6 +222,17 @@ a {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.211);
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all .5s ease;
+    cursor: default;
+}
+
+.secundaria-home .service:hover {
+    transform: scale(1.05);
+}
+
+.secundaria-home .div-cards {
+    margin: 0 auto;
 }
 
 .secundaria-home .icon-box {
@@ -296,7 +307,7 @@ a {
     font-size: 45px;
     padding: 20px;
     font-weight: 700;
-    color: var(--dark);
+    color: var(--secondary);
 }
 
 .produtos p {
