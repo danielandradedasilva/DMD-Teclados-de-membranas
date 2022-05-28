@@ -86,14 +86,12 @@
     }
     .contato {
         padding: 0;
-        border: 1px solid red;
     }
     .p-mail {
         width: 100%;
-        border: 1px solid red;
     }
     .email {
-        font-size: 15px;
+        font-size: 13.5px;
     }
 }
 
@@ -108,6 +106,17 @@
     }
     .div-footer-bottom>span {
         font-size: 14px;
+    }
+    .p-mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        border: 1px solid rgb(0, 255, 0);
+    }
+    .email {
+        font-size: 16px;
     }
 }
 
