@@ -84,6 +84,17 @@
     .container-carrosel {
         margin-top: 85px!important;
     }
+    .contato {
+        padding: 0;
+        border: 1px solid red;
+    }
+    .p-mail {
+        width: 100%;
+        border: 1px solid red;
+    }
+    .email {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 575.98px) {

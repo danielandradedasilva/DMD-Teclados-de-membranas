@@ -209,3 +209,15 @@
     background-color: var(--white);
     color: var(--secondary);
 }
+
+.contato {
+    padding: 0;
+}
+
+.p-mail {
+    width: 100%;
+}
+
+.email {
+    font-size: 17px;
+}
