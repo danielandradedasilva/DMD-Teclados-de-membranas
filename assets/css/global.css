@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Sora, "sans-serif";
+    line-height: 1.7;
+    color: var(--body);
+    background-color: rgba(221, 221, 221, 0.549);
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-4 {
+    color: var(--dark);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--primary);
+}
+
+h1 {
+    color: var(--primary);
+}
+
+.fsc-p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    /**/
+}
+
+.navbar-person {
+    background-color: var(--green-ligth);
+    border-bottom: 1px solid var(--body);
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    transition: background-color ease-in-out .2s;
+}
+
+.navbar .logo {
+    width: 180px;
+    height: 70px;
+    /**/
+}
+
+#logo-person {
+    width: 160px;
+    height: 50px;
+    /**/
+}
+
+.navbar i {
+    cursor: pointer;
+    color: var(--secondary);
+    font-size: 45px;
+}
+
+.navbar .nav-link {
+    font-size: 19px;
+    height: 38px;
+    font-weight: 600;
+    color: var(--primary);
+    border-bottom: 4px solid transparent;
+}
+
+.navbar .nav-link:hover {
+    color: var(--primary-two);
+    border-bottom: 4px solid var(--primary-two);
+}
+
+.navbar .btn-secondary-c {
+    background-color: var(--secondary);
+    border-bottom: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(99, 99, 99, 0.3);
+    width: 120px;
+    height: 35px;
+    padding: 4px;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+
+.navbar .btn-secondary-c:hover {
+    background-color: var(--white);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+    color: var(--secondary);
+}
+
+.footer {
+    border-top: 5px solid #0b1a20;
+    background-color: #11252e;
+}
+
+.div-footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #0b1a20;
+}
+
+.div-footer-bottom>span {
+    font-size: 17px;
+}

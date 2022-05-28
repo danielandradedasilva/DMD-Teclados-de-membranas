@@ -1,8 +1,106 @@
-/*PCs*/
+@media (max-width:992px) {
+    .navbar-collapse {
+        height: 280px;
+    }
+    .navbar {
+        margin-top: 0;
+        background-color: var(--green-ligth);
+        border-bottom: 1px solid var(--body);
+    }
+    .navbar .logo {
+        width: 160px;
+        height: 50px;
+    }
+    .navbar-nav {
+        margin-top: 30px;
+    }
+    .navbar .nav-link {
+        font-size: 18px;
+        color: var(--primary);
+        border-bottom: 0px solid transparent;
+    }
+    .navbar .nav-link:hover {
+        color: var(--primary-two);
+        border-bottom: 0px solid transparent;
+    }
+    .navbar .btn-secondary-c {
+        background-color: var(--green-ligth);
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+        width: 120px;
+        height: 35px;
+        padding: 4px;
+        color: var(--primary);
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .navbar .btn-secondary-c:hover {
+        color: var(--primary-two);
+        font-weight: 600;
+        box-shadow: none;
+        background-color: var(--green-ligth);
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
+        border-radius: 0px;
+    }
+    .inicial-home {
+        height: 700px;
+    }
+    .h1-top {
+        font-size: 42px;
+    }
+    .secundaria-home .service:hover {
+        transform: scale(1);
+    }
+    .cta {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+        background-position: center;
+        overflow: hidden;
+        border-top: 3px solid rgb(225, 0, 34);
+        border-bottom: 3px solid rgb(225, 0, 34);
+    }
+    .produtos-home::before {
+        width: 200px;
+        height: 200px;
+        top: -30px;
+        left: -120px;
+    }
+    .produtos-home p.fsc-p {
+        width: 100%;
+    }
+    .secundaria-home p {
+        margin: 0 auto;
+        width: auto;
+        padding: 8px;
+    }
+    .secundaria-produtos {
+        height: fit-content;
+    }
+    .container-carrosel {
+        margin-top: 85px!important;
+    }
+}
 
-@media (max-width:992px) {}
+@media (max-width: 575.98px) {
+    .container-carrosel {
+        margin: 0 3%;
+        width: 500px;
+        margin-top: 15px;
+    }
+    .div-footer-bottom {
+        font-size: 14px;
+    }
+    .div-footer-bottom>span {
+        font-size: 14px;
+    }
+}
 
-
-/* Tablets*/
-
-@media (min-width: 991.98px) {}
+@media (max-width: 330px) {
+    .h1-top {
+        font-size: 40px;
+    }
+}

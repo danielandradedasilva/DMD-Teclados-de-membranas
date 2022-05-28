@@ -1,7 +1,16 @@
-:root {
-    --grey-ligth: rgb(223, 223, 223);
-    --orange-ligth: rgb(255, 151, 90);
-    --blue-ligth: #0d6efd;
-    --blue-dark: #0900b9;
-    --transparent: rgba(255, 151, 90, 0);
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+ :root {
+    --primary: #0d6efd;
+    --primary-two: #004ecb;
+    --secondary: #e10022;
+    --dark: #21252f;
+    --green-ligth: #deeaea;
+    --green-ligth-section: #f2f2f2;
+    --dark-nav: #11252e;
+    --white: #ffffff;
+    --white-60: #e2e2e2;
+    --grey: #dddddd;
+    --border: #c3c3c3cc;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 }
