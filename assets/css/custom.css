@@ -225,4 +225,23 @@
 
 /****SERVIÇOS*****/
 
-.inicial-servicos {}
+.header-servicos .navbar {
+    background-color: var(--green-ligth);
+    border-bottom: 1px solid var(--body);
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    z-index: 999;
+    transition: background-color ease-in-out .2s;
+}
+
+.header-servicos #logo-person {
+    width: 160px;
+    height: 50px;
+}
+
+.inicial-servicos {
+    background-color: aqua;
+    height: 450px;
+}
