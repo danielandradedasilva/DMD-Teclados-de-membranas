@@ -5,6 +5,7 @@
     --secondary: #e10022;
     --dark: #21252f;
     --green-ligth: #deeaea;
+    --green-ligth-section: #f2f2f2;
     --dark-nav: #11252e;
     --white: #ffffff;
     --white-60: #e2e2e2;
@@ -198,7 +199,7 @@ a {
 /*8888888888888888888888888888888888888888888*/
 
 .secundaria-home {
-    background: linear-gradient(to bottom, var(--white-60), var(--green-ligth));
+    background: linear-gradient(to bottom, var(--white-60), var(--green-ligth-section));
     height: fit-content;
 }
 
@@ -212,13 +213,14 @@ a {
 }
 
 .secundaria-home h3 {
-    font-size: 32px;
-    font-weight: 100;
+    font-size: 27px;
+    font-weight: 600;
     color: var(--primary);
 }
 
 .secundaria-home .service {
     padding: 44px 24px;
+    height: 380px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.211);
     border-radius: 10px;
@@ -238,53 +240,47 @@ a {
 .secundaria-home .icon-box {
     width: 100%;
     height: 150px;
-    font-size: 40px;
+    font-size: 36px;
     margin: 0 auto;
     color: var(--primary);
 }
 
-.star1 {
-    font-size: 35px;
-}
-
-.star2 {
-    font-size: 40px;
-}
-
 .star3 {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .star4 {
-    font-size: 55px;
+    font-size: 28px;
 }
 
 .star5 {
-    font-size: 70px;
+    font-size: 36px;
 }
 
 .bi-people-fill {
-    font-size: 90px;
+    font-size: 50px;
 }
 
 .bi-gear {
+    font-size: 30PX;
     margin-left: -10px;
 }
 
 .bi-person-check-fill {
-    font-size: 90px;
+    font-size: 50px;
 }
 
 .secundaria-home .service p {
-    width: fit-content;
+    width: 100%;
     font-size: 17px;
+    margin-top: -65PX;
     text-align: center;
 }
 
 .secundaria-produtos {
     border-top: 2px solid #11252e0f;
-    background: linear-gradient(to top, var(--white-60), var(--green-ligth));
-    height: fit-content;
+    background: linear-gradient(to top, var(--white-60), var(--green-ligth-section));
+    height: 800px;
 }
 
 .secundaria-produtos .sub-title-produtos {
@@ -292,15 +288,6 @@ a {
     text-align: center;
     font-size: 20px;
     color: var(--dark);
-}
-
-.btn-danger:hover {
-    background-color: var(--white);
-    border: 1px solid var(--white);
-    color: var(--secondary);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    border-right: 2px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.356);
 }
 
 .produtos .display-6 {
@@ -315,8 +302,22 @@ a {
     color: var(--dark);
 }
 
+.btn-danger:hover {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    color: var(--secondary);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
 .container-carrosel {
-    width: 550px;
+    margin: 0 auto;
+}
+
+.carousel-inner h4 {
+    background: rgb(255, 255, 255);
+    margin-top: -180px;
 }
 
 
@@ -426,6 +427,9 @@ a {
     .inicial-home {
         height: 700px;
     }
+    .secundaria-home .service:hover {
+        transform: scale(1);
+    }
     .cta {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -449,13 +453,14 @@ a {
         width: auto;
         padding: 8px;
     }
-    .container-carrosel {
-        width: 460px;
-        margin-top: 15px;
-    }
 }
 
 @media (max-width: 575.98px) {
+    .container-carrosel {
+        margin: 0 3%;
+        width: 500px;
+        margin-top: 15px;
+    }
     .div-footer-bottom {
         font-size: 14px;
     }
