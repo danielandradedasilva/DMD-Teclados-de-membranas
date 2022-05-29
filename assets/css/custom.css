@@ -250,19 +250,20 @@
 }
 
 #section-servicos .servicos-content-img {
-    width: 550px;
-    height: 100%;
+    width: 100%;
+    height: 350px;
     overflow: hidden;
-    margin: 0 -20px;
-    border-radius: 25px;
+    border-radius: 8px;
     position: relative;
     cursor: default;
+    text-align: center;
 }
 
 #section-servicos .servicos-content-img p {
     color: var(--secondary);
-    left: -36%;
-    top: 40%;
+    width: 100%;
+    margin-top: 130px;
+    padding: 25px;
     font-size: 20px;
     font-weight: 600;
     background: linear-gradient(to right, rgb(255, 255, 255) .2%, rgba(255, 255, 255, 0.603));
@@ -288,7 +289,7 @@
 }
 
 #section-servicos .servicos-content {
-    border: 2px solid var(--dark);
+    border: 5px solid var(--secondary);
     width: 400px;
     height: 470px;
     margin: 0 auto;

@@ -98,18 +98,13 @@
         background-repeat: no-repeat;
         background-size: auto;
     }
-    #section-servicos .servicos-content-img {
-        margin: 60px 70px;
+    #section-servicos .servicos-content {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
     }
-    #section-servicos .servicos-content-img p {
-        left: 6%;
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 766px) {
     #section-servicos .servicos-content-img {
-        margin: 60px -20px;
+        margin-top: 80px;
     }
 }
 
@@ -143,30 +138,11 @@
     .inicial-servicos h2 {
         margin-top: 60px;
     }
-    #section-servicos .servicos-content-img {
-        width: 350px;
-        height: 250px;
-        margin: 60px 40px;
-    }
-    #section-servicos .servicos-content-img p {
-        left: 1%;
-        font-size: 16px;
-        opacity: 1;
-    }
 }
 
 @media (max-width: 420px) {
     .h1-top {
         font-size: 1.9rem;
-    }
-    #section-servicos .servicos-content-img {
-        width: 330px;
-        height: 250px;
-        margin: 60px 33px;
-    }
-    #section-servicos .servicos-content {
-        width: 340px;
-        height: 480px;
     }
 }
 
@@ -174,28 +150,10 @@
     .h1-top {
         font-size: 2.3rem;
     }
-    #section-servicos .servicos-content-img {
-        width: 300px;
-        height: 250px;
-        margin: 60px 25px;
-    }
-    #section-servicos .servicos-content {
-        width: 320px;
-        height: 480px;
-    }
 }
 
 @media (max-width: 330px) {
     .h1-top {
         font-size: 2.3rem;
-    }
-    #section-servicos .servicos-content-img {
-        width: 300px;
-        height: 250px;
-        margin: 60px -3px;
-    }
-    #section-servicos .servicos-content {
-        width: 300px;
-        height: 510px;
     }
 }
