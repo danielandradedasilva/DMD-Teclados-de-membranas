@@ -246,6 +246,7 @@
     width: 100%;
     background-size: auto;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #section-servicos .servicos-content-img {
@@ -333,13 +334,24 @@
 }
 
 .container-content-exp {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(30px);
-    border: 3px solid #f2f2f246;
-    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.665);
+    border: 3px solid #ffffff;
 }
 
 .container-content-exp p {
     font-size: 18px;
     padding: 0 5px;
+}
+
+
+/****PRODUTOS*****/
+
+.inicial-produtos {
+    background: linear-gradient(to right, rgba(48, 48, 48, 0.486) .1%, rgb(56, 64, 83)), url(../img/jpg/fundo-cta.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }

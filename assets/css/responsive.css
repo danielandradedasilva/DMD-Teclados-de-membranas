@@ -112,6 +112,14 @@
     .container-content-exp:nth-child(3) {
         margin-bottom: 35px;
     }
+    #servicos-exp {
+        background-attachment: scroll;
+    }
+    .inicial-produtos {
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 @media (max-width: 575.98px) {
