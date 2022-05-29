@@ -133,7 +133,6 @@
 }
 
 .secundaria-produtos {
-    border-top: 2px solid #11252e0f;
     background: linear-gradient(to top, var(--white-60), var(--green-ligth-section));
     height: 800px;
 }
@@ -317,8 +316,29 @@
 
 #section-servicos .servicos-content .topicos {
     text-align: start;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 18px;
     width: 190px;
     color: var(--primary);
     margin: 0 8%;
+}
+
+#servicos-exp {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.805), rgba(49, 116, 197, 0.667)), url(../img/png/board-1709188_1280.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+
+.container-content-exp {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+    border: 3px solid #f2f2f246;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.665);
+}
+
+.container-content-exp p {
+    font-size: 18px;
+    padding: 0 5px;
 }
