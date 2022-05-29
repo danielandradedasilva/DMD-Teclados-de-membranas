@@ -49,9 +49,7 @@
     .inicial-home {
         height: 700px;
     }
-    .h1-top {
-        font-size: 35px;
-    }
+    .h1-top {}
     .secundaria-home .service:hover {
         transform: scale(1);
     }
@@ -141,19 +139,13 @@
 }
 
 @media (max-width: 420px) {
-    .h1-top {
-        font-size: 1.9rem;
-    }
+    .h1-top {}
 }
 
 @media (max-width: 378px) {
-    .h1-top {
-        font-size: 2.3rem;
-    }
+    .h1-top {}
 }
 
 @media (max-width: 330px) {
-    .h1-top {
-        font-size: 2.3rem;
-    }
+    .h1-top {}
 }
