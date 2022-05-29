@@ -147,7 +147,6 @@
         width: 350px;
         height: 250px;
         margin: 60px 40px;
-        background-color: red;
     }
     #section-servicos .servicos-content-img p {
         left: 1%;
@@ -164,7 +163,10 @@
         width: 330px;
         height: 250px;
         margin: 60px 33px;
-        background-color: red;
+    }
+    #section-servicos .servicos-content {
+        width: 340px;
+        height: 480px;
     }
 }
 
@@ -176,7 +178,10 @@
         width: 300px;
         height: 250px;
         margin: 60px 25px;
-        background-color: red;
+    }
+    #section-servicos .servicos-content {
+        width: 320px;
+        height: 480px;
     }
 }
 
@@ -188,6 +193,9 @@
         width: 300px;
         height: 250px;
         margin: 60px -3px;
-        background-color: red;
+    }
+    #section-servicos .servicos-content {
+        width: 300px;
+        height: 510px;
     }
 }
