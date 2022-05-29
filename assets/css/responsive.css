@@ -110,7 +110,6 @@
 @media (max-width: 766px) {
     #section-servicos .servicos-content-img {
         margin: 60px -20px;
-        background-color: red;
     }
 }
 
@@ -145,9 +144,9 @@
         margin-top: 60px;
     }
     #section-servicos .servicos-content-img {
-        width: 400px;
-        height: 300px;
-        margin: 60px 3px;
+        width: 350px;
+        height: 250px;
+        margin: 60px 40px;
         background-color: red;
     }
     #section-servicos .servicos-content-img p {
@@ -158,14 +157,26 @@
 }
 
 @media (max-width: 420px) {
-    #section-servicos .servicos-content-img {
-        width: 350px;
-        height: 250px;
-        margin: 60px -3px;
-        background-color: red;
-    }
     .h1-top {
         font-size: 1.9rem;
+    }
+    #section-servicos .servicos-content-img {
+        width: 330px;
+        height: 250px;
+        margin: 60px 33px;
+        background-color: red;
+    }
+}
+
+@media (max-width: 378px) {
+    .h1-top {
+        font-size: 2.3rem;
+    }
+    #section-servicos .servicos-content-img {
+        width: 300px;
+        height: 250px;
+        margin: 60px 25px;
+        background-color: red;
     }
 }
 
@@ -176,7 +187,7 @@
     #section-servicos .servicos-content-img {
         width: 300px;
         height: 250px;
-        margin: 60px 1px;
+        margin: 60px -3px;
         background-color: red;
     }
 }
