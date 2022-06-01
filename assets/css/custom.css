@@ -325,7 +325,7 @@
 }
 
 #servicos-exp {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.805), rgba(49, 116, 197, 0.667)), url(../img/png/board-1709188_1280.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.805), rgba(49, 116, 197, 0.667)), url(../img/png/bg-conector.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
