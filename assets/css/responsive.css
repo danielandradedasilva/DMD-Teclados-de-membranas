@@ -96,7 +96,6 @@
     .inicial-servicos {
         height: 300px;
         background-repeat: no-repeat;
-        background-size: auto;
     }
     #section-servicos .servicos-content {
         width: 100%;
@@ -115,10 +114,17 @@
     #servicos-exp {
         background-attachment: scroll;
     }
+    .inicial-servicos {
+        height: 300px;
+    }
+    .inicial-servicos h2 {
+        margin-top: 60px;
+    }
     .inicial-produtos {
         height: 300px;
-        background-repeat: no-repeat;
-        background-size: cover;
+    }
+    .inicial-produtos h2 {
+        margin-top: 60px;
     }
 }
 
@@ -143,14 +149,6 @@
     }
     .email {
         font-size: 21px;
-    }
-    .inicial-servicos {
-        height: 300px;
-        background-repeat: no-repeat;
-        background-size: auto;
-    }
-    .inicial-servicos h2 {
-        margin-top: 60px;
     }
 }
 

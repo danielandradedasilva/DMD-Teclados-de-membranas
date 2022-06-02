@@ -241,11 +241,12 @@
 }
 
 .inicial-servicos {
-    background: linear-gradient(to right, rgba(48, 48, 48, 0.486) .1%, rgb(56, 64, 83)), url(../img/png/circuitos-flexiveis.png);
+    background: linear-gradient(to right, rgba(48, 48, 48, 0.2) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/circuitos-flexiveis.jpg);
     height: 450px;
     width: 100%;
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
@@ -348,10 +349,11 @@
 /****PRODUTOS*****/
 
 .inicial-produtos {
-    background: linear-gradient(to right, rgba(48, 48, 48, 0.486) .1%, rgb(56, 64, 83)), url(../img/jpg/fundo-cta.jpg);
+    background: linear-gradient(to right, rgba(48, 48, 48, 0.2) .1%, rgba(0, 0, 0, 0.702)), url(../img/jpg/fundo-top-produtos.jpg);
     height: 450px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
 }
