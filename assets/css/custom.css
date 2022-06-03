@@ -1,5 +1,5 @@
 .inicial-home {
-    background: linear-gradient(rgb(242, 255, 253)2%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url(../img/jpg/bg-home.jpg);
+    background: linear-gradient(rgb(242, 255, 253)2%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgb(0, 0, 0)), url(../img/jpg/bg-home.webp);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -177,7 +177,7 @@
 .cta {
     padding-top: 70px;
     padding-bottom: 70px;
-    background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+    background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.webp);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -360,6 +360,7 @@
 }
 
 .bg-primary {
+    font-size: 40px;
     background-color: rgb(0, 21, 88)!important;
     border-radius: 50px;
 }
