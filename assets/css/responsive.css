@@ -14,10 +14,10 @@
     .navbar-nav {
         height: 190px;
         margin-top: 35px;
-        margin-bottom: 15px;
+        margin-bottom: 53px;
     }
     .navbar .nav-link {
-        font-size: 20px;
+        font-size: 22px;
         color: var(--primary);
         border-bottom: 0px solid transparent;
     }
@@ -36,7 +36,7 @@
         padding: 4px;
         color: var(--primary);
         font-weight: 600;
-        font-size: 20px;
+        font-size: 22px;
     }
     .navbar .btn-secondary-c:hover {
         color: var(--primary-two);
