@@ -12,11 +12,12 @@
         height: 50px;
     }
     .navbar-nav {
-        margin-top: 30px;
+        height: 190px;
+        margin-top: 35px;
+        margin-bottom: 15px;
     }
     .navbar .nav-link {
         font-size: 20px;
-        margin-bottom: 25px;
         color: var(--primary);
         border-bottom: 0px solid transparent;
     }
@@ -35,7 +36,7 @@
         padding: 4px;
         color: var(--primary);
         font-weight: 600;
-        font-size: 18px;
+        font-size: 20px;
     }
     .navbar .btn-secondary-c:hover {
         color: var(--primary-two);
