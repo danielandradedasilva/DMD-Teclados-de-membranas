@@ -180,6 +180,7 @@
     background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
     background-position: center;
     background-size: cover;
+    overflow: hidden;
     border-top: 5px solid rgb(225, 0, 34);
     border-bottom: 5px solid rgb(225, 0, 34);
 }
