@@ -150,6 +150,12 @@
     .email {
         font-size: 21px;
     }
+    .produtos-content {
+        width: 400px;
+    }
+    .produtos-content img {
+        width: 100%!important;
+    }
 }
 
 @media (max-width: 420px) {

@@ -93,25 +93,24 @@ a {
 }
 
 .navbar .nav-item {
-    height: 38px;
+    height: 34px;
 }
 
 .navbar .nav-link {
+    margin-top: 8px;
     font-size: 19px;
-    height: 38px;
+    height: 34px;
+    line-height: 20px;
     font-weight: 600;
     color: var(--primary);
     border-bottom: 4px solid transparent;
 }
 
 .navbar .nav-link:hover {
+    color: var( --primary-two);
+    /*
     border-bottom: 4px solid var(--primary-two);
-}
-
-.active {
-    height: 38px;
-    font-weight: 600;
-    border-bottom: 4px solid var(--primary-two);
+    */
 }
 
 .navbar .btn-secondary-c {

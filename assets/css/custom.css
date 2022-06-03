@@ -357,3 +357,8 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.bg-primary {
+    background-color: rgb(0, 21, 88)!important;
+    border-radius: 50px;
+}

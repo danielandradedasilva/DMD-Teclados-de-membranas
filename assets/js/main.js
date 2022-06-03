@@ -3,19 +3,7 @@ const ctaBoxTxt = document.querySelectorAll('.box-text');
 const navPerson = document.querySelector('.navbar');
 const logoPerson = document.querySelector('.navbar-brand .logo');
 const animationClass = 'coll';
-/*
-const currentLocation = location.href;
-const menuItem = document.querySelectorAll('.nav-item');
-const menuLength = menuItem.length;
 
-
-
-for (let i = 0; i < menuLength; i++) {
-    if (menuItem[i].href === currentLocation) {
-        menuItem[i].className = "active";
-    }
-}
-*/
 function AnimeScroll() {
     const windownTop = window.pageYOffset + 700;
 
