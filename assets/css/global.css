@@ -136,6 +136,7 @@
     }
     
     .footer {
+        margin-bottom: 0;
         border-top: 5px solid #0b1a20;
         background-color: #11252e;
         font-size: 14px;
@@ -150,4 +151,5 @@
         font-weight: 600;
         text-align: left;
         background-color: #0b1a20!important;
+        margin-bottom: 0;
     }

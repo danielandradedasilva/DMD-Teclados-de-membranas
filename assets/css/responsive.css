@@ -133,12 +133,12 @@
         width: 100%!important;
     }
     .footer .bi {
-        font-size: 22px;
-        color: rgb(183, 255, 0);
+        font-size: 25px;
+        color: rgb(255, 0, 144);
     }
     .footer span {
-        font-size: 15px;
-        color: aqua;
+        font-size: 13px;
+        color: rgb(255, 242, 0);
     }
     .div-footer-bottom {
         font-size: 14px;
