@@ -142,13 +142,13 @@ a {
     padding: 15px;
 }
 
-.footer .div-footer-bottom {
+.div-footer-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     text-align: left;
-    background-color: #0b1a20;
+    background-color: #0b1a20!important;
 }
