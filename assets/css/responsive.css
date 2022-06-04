@@ -126,27 +126,25 @@
         width: 500px;
         margin-top: 15px;
     }
-    .div-footer-bottom {
-        font-size: 14px;
-    }
-    .div-footer-bottom>span {
-        font-size: 14px;
-    }
-    .p-mail {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 50px;
-    }
-    .email {
-        font-size: 21px;
-    }
     .produtos-content {
         width: 400px;
     }
     .produtos-content img {
         width: 100%!important;
+    }
+    .footer .bi {
+        font-size: 22px;
+        color: rgb(183, 255, 0);
+    }
+    .footer span {
+        font-size: 15px;
+        color: aqua;
+    }
+    .div-footer-bottom {
+        font-size: 14px;
+    }
+    .div-footer-bottom>span {
+        font-size: 14px;
     }
 }
 
