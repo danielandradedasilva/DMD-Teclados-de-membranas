@@ -366,6 +366,10 @@
     border-radius: 50px;
 }
 
+.div-span-produtos span {
+    margin-left: -25px;
+}
+
 .text-dark a {
     margin-right: 500px;
     margin-top: 10px;
