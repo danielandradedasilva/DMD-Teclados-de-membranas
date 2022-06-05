@@ -122,6 +122,9 @@
         margin: 0 auto;
         margin-top: 10px;
     }
+    .service.sobre-cards {
+        height: 350px;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -174,6 +177,9 @@
     }
     .content-pilares p {
         font-size: 18px;
+    }
+    .service.sobre-cards {
+        height: 480px;
     }
     .footer .container-p-sobre .w-75 {
         width: 100%!important;

@@ -419,10 +419,14 @@
 
 .service.sobre-cards {
     padding: 44px 24px;
-    height: 480px;
+    height: 550px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.211);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8).1%, #f0f0f0);
+    border: 1px solid #f0f0f0;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
     cursor: default;
+}
+
+.service.sobre-cards p {
+    font-size: 17px;
 }
