@@ -142,7 +142,8 @@
         padding-left: 17px;
     }
     .bg-primary {
-        font-size: 28px;
+        margin-top: 20px;
+        font-size: 25px;
         width: 100%;
         margin-left: 2%;
         background-color: rgb(0, 21, 88)!important;
@@ -151,6 +152,7 @@
     .text-dark a {
         margin-right: 500px;
         margin-top: 10px;
+        margin-bottom: 10px;
         width: 45%;
     }
     .container-servicos .img-fluid {
