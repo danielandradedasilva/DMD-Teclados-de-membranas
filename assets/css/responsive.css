@@ -53,9 +53,6 @@
     .h1-top {
         font-size: 35px;
     }
-    .secundaria-home .service:hover {
-        transform: scale(1);
-    }
     .cta {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -162,6 +159,21 @@
     }
     .container-servicos .img-fluid {
         margin: 0 auto;
+    }
+    .container-top-sobre {
+        margin-top: -45px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .container-top-sobre p {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+    .content-pilares h2 {
+        font-size: 25px;
+    }
+    .content-pilares p {
+        font-size: 18px;
     }
     .footer .container-p-sobre .w-75 {
         width: 100%!important;
