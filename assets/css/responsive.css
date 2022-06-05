@@ -59,7 +59,7 @@
     .cta {
         padding-top: 70px;
         padding-bottom: 70px;
-        background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.jpg);
+        background: linear-gradient(to left, rgba(48, 48, 48, 0.4) .1%, rgba(0, 0, 0, 0.9)), url(../img/jpg/fundo-cta.webp);
         background-position: center;
         overflow: hidden;
         border-top: 3px solid rgb(225, 0, 34);
