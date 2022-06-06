@@ -430,3 +430,20 @@
 .service.sobre-cards p {
     font-size: 17px;
 }
+
+
+/****CONTATO*****/
+
+.inicial-contato {
+    background: linear-gradient(to right, rgba(48, 48, 48, 0.2) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/bg-top-contato.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.formulario {
+    border: 1px solid red;
+}
