@@ -125,6 +125,18 @@
     .service.sobre-cards {
         height: 350px;
     }
+    .cta-contato {
+        padding: 40px 20px;
+        background: linear-gradient(to right, rgba(48, 48, 48, 0.591) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/contato-decrição.jpg);
+        background-position: center;
+        background-size: contain;
+        overflow: hidden;
+        border-top: none;
+        border-bottom: none;
+    }
+    .cta-contato h2 cite {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 575.98px) {
