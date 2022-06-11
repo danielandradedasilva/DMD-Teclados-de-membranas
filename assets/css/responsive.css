@@ -220,7 +220,7 @@
         font-size: 1.9rem;
     }
     .span-email {
-        width: 100%;
+        width: fit-content;
         border: 1px solid rgb(255, 208, 0);
     }
 }
