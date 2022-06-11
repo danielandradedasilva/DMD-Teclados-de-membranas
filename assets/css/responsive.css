@@ -198,15 +198,15 @@
     .service.sobre-cards {
         height: 480px;
     }
-    #section-contato .span-fone {
-        width: max-content;
-        font-size: small;
-        border: 1px solid rgb(0, 127, 74);
+    .container-top-contato {
+        margin-top: -50px;
     }
-    #section-contato .span-email {
-        width: max-content;
-        font-size: small;
-        border: 1px solid rgb(10, 120, 0);
+    .links-contato>i {
+        font-size: 19px;
+    }
+    .links-contato span {
+        font-size: 16px;
+        color: var(--primary);
     }
     .footer .container-p-sobre .w-75 {
         width: 100%!important;

@@ -459,6 +459,28 @@
         background-attachment: fixed;
     }
     
+    .p-frase-contato {
+        font-size: 18px;
+    }
+    
+    .links-contato>i {
+        font-size: 25px;
+        color: green;
+    }
+    
+    .links-contato>i.email {
+        color: rgb(0, 0, 0);
+    }
+    
+    .links-contato span {
+        font-size: 18px;
+        color: var(--primary);
+    }
+    
+    .links-contato span:hover {
+        color: var(--secondary);
+    }
+    /*
     .formulario {
         background-color: rgba(95, 158, 160, 0.404);
         border: 1.5px solid rgba(104, 104, 104, 0.541);
@@ -483,6 +505,7 @@
         border-right: 2px solid rgba(0, 0, 0, 0.2);
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     }
+    */
     
     .h5 {
         width: 850px;
