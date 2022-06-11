@@ -503,3 +503,18 @@
         transform: scale(1.05);
         border-bottom: 5px solid red;
     }
+    /****POLÍTICA DE PRIVACIDADE*****/
+    
+    .inicial-politica {
+        background: linear-gradient(to right, rgba(48, 48, 48, 0.2) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/bg-politica.webp);
+        height: 450px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        background-attachment: fixed;
+    }
+    
+    .inicial-politica h2 {
+        margin-top: 70px;
+    }
