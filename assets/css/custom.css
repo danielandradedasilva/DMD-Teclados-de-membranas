@@ -358,6 +358,14 @@
         border-radius: 50px;
     }
     
+    .f-mt {
+        margin-top: -70px;
+    }
+    
+    .ct-img-produtos {
+        margin-top: -170px!important;
+    }
+    
     .div-span-produtos span {
         margin-left: -25px;
     }
@@ -461,6 +469,10 @@
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     }
     
+    .h5 {
+        width: 850px;
+    }
+    
     .cta-contato {
         padding: 150px;
         background: linear-gradient(to right, rgba(48, 48, 48, 0.591) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/contato-decrição.jpg);
@@ -472,8 +484,9 @@
     }
     /****PRODUTOS/TECLADOS-DE-MEMBRANA*****/
     
-    .teclados-section {
-        background-color: blue;
+    .f-etiqueta {
+        background-color: red!important;
+        color: blue;
     }
     
     .container-img-teclados {
