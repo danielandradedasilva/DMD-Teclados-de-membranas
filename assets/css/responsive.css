@@ -199,12 +199,12 @@
         height: 480px;
     }
     #section-contato .span-fone {
-        width: min-content;
+        width: max-content;
         font-size: small;
         border: 1px solid rgb(0, 127, 74);
     }
     #section-contato .span-email {
-        width: min-content;
+        width: max-content;
         font-size: small;
         border: 1px solid rgb(10, 120, 0);
     }
