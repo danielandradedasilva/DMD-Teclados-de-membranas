@@ -375,6 +375,21 @@
         margin-top: 10px;
         width: 25%;
     }
+    
+    .container-img-teclados {
+        margin-top: -120px;
+        transition: all .3s ease;
+    }
+    
+    .container-img-teclados .card {
+        transition: all .4s ease-in-out;
+        border-bottom: 5px solid transparent;
+    }
+    
+    .container-img-teclados .card:hover {
+        transform: scale(1.05);
+        border-bottom: 5px solid red;
+    }
     /****SOBRE*****/
     
     .inicial-sobre {
@@ -481,27 +496,6 @@
         overflow: hidden;
         border-top: none;
         border-bottom: none;
-    }
-    /****PRODUTOS/TECLADOS-DE-MEMBRANA*****/
-    
-    .f-etiqueta {
-        background-color: red!important;
-        color: blue;
-    }
-    
-    .container-img-teclados {
-        margin-top: -120px;
-        transition: all .3s ease;
-    }
-    
-    .container-img-teclados .card {
-        transition: all .4s ease-in-out;
-        border-bottom: 5px solid transparent;
-    }
-    
-    .container-img-teclados .card:hover {
-        transform: scale(1.05);
-        border-bottom: 5px solid red;
     }
     /****POLÍTICA DE PRIVACIDADE*****/
     
