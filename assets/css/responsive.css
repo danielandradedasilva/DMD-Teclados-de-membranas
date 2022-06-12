@@ -51,6 +51,7 @@
         height: 700px;
     }
     .p-top {
+        padding: 0 20px;
         width: 100%;
     }
     .cta {
@@ -146,6 +147,9 @@
 }
 
 @media (max-width: 575.98px) {
+    .h1-top {
+        padding: 0px 15%;
+    }
     .container-carrosel {
         margin: 0 3%;
         width: 500px;
@@ -242,6 +246,9 @@
 }
 
 @media (max-width: 378px) {
+    .h1-top {
+        padding: 0px 10%;
+    }
     .links-contato span {
         font-size: 17px;
         color: var(--primary);
