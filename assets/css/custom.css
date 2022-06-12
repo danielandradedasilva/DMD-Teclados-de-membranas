@@ -463,6 +463,11 @@
         font-size: 18px;
     }
     
+    .links-contato {
+        display: flex;
+        align-items: center;
+    }
+    
     .links-contato>i {
         font-size: 25px;
         color: green;
