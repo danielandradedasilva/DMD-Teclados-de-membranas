@@ -241,7 +241,6 @@
     .links-contato span {
         font-size: 19px;
         color: var(--primary);
-        border: 1px solid rgb(0, 207, 59);
     }
 }
 
@@ -252,7 +251,6 @@
     .links-contato span {
         font-size: 17px;
         color: var(--primary);
-        border: 1px solid rgb(17, 0, 207);
     }
 }
 
