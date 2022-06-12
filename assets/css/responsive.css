@@ -232,15 +232,20 @@
         font-size: 21px;
     }
     .links-contato span {
-        font-size: 17px;
+        font-size: 19px;
         color: var(--primary);
-        border: 1px solid burlywood;
+        border: 1px solid rgb(0, 207, 59);
     }
 }
 
 @media (max-width: 378px) {
     .h1-top {
         font-size: 2.3rem;
+    }
+    .links-contato span {
+        font-size: 17px;
+        color: var(--primary);
+        border: 1px solid rgb(17, 0, 207);
     }
 }
 
