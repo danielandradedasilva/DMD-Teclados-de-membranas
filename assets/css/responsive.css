@@ -207,6 +207,13 @@
     .links-contato>i {
         font-size: 19px;
     }
+    .c-obrigatorios {
+        margin-top: -25px;
+        font-size: 16px;
+    }
+    .formulario {
+        margin-top: 10px;
+    }
     .footer .container-p-sobre .w-75 {
         width: 100%!important;
     }
