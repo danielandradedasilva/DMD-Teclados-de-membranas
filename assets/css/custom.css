@@ -498,6 +498,16 @@
         cursor: pointer;
     }
     
+    .submit {
+        background-color: var(--primary);
+    }
+    
+    .submit:hover {
+        background-color: var(--white);
+        color: var(--primary);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
     .cta-contato {
         padding: 150px;
         background: linear-gradient(to right, rgba(48, 48, 48, 0.591) .1%, rgba(0, 0, 0, 0.829)), url(../img/jpg/contato-decrição.jpg);
