@@ -485,10 +485,10 @@
     .links-contato span:hover {
         color: var(--secondary);
     }
-    /*
+    
     .formulario {
-        background-color: rgba(95, 158, 160, 0.404);
-        border: 1.5px solid rgba(104, 104, 104, 0.541);
+        background-color: rgba(105, 136, 137, 0.4);
+        border: 1px solid rgba(104, 104, 104, 0.2);
         border-radius: 5px;
         cursor: pointer;
     }
@@ -496,24 +496,6 @@
     .formulario input,
     .formulario textarea {
         cursor: pointer;
-    }
-    
-    .formulario:hover {
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.264);
-    }
-    
-    .formulario .submit:hover {
-        background-color: var(--white);
-        border: 1px solid var(--white);
-        color: var(--primary);
-        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-        border-right: 2px solid rgba(0, 0, 0, 0.2);
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    }
-    */
-    
-    .h5 {
-        width: 850px;
     }
     
     .cta-contato {

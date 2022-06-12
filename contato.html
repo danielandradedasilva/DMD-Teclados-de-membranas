@@ -95,12 +95,37 @@
                         Seg. a Sex: 08hs às 17:30
                     </p>
 
-                    <p class="text-danger mb-5">
+                    <p class="text-danger mb-3">
                         Os campos com * são obrigatorios, para o envio do formulário.
                     </p>
 
                 </div>
-                <div class="col-md-6">formulario</div>
+                <div class="col-md-6 mt-3">
+                    <form class="row g-3 formulario p-3">
+                        <div class="col-12 mt-4">
+                            <input type="text" class="form-control" placeholder="Nome Completo *" id="validationDefault01" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Nome da Empresa   (Opcional)">
+                        </div>
+
+                        <div class="col-12">
+                            <input type="tel" class="form-control" placeholder="Telefône (DDD) *" required>
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Email *" required>
+                        </div>
+                        <div class="col-12">
+                            <textarea name="" id="" cols="20" rows="4" class="p-3 w-100"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 col-lg-6 col-md-12 mx-auto mb-lg-4 mb-md-3">
+                            <button class="btn btn-primary border-0 p-2 submit" type="submit">Enviar &nbsp;<i class="bi bi-send-fill"></i></button>
+                        </div>
+                        <div class="d-grid gap-2 col-lg-6 col-md-12  mx-auto mb-4">
+                            <button class="btn btn-danger border-0 p-2" type="reset">Limpar &nbsp;<i class="bi bi-x-circle-fill"></i></button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
