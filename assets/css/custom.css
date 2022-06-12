@@ -5,17 +5,16 @@
         height: 100vh;
     }
     
-    .p-top {
-        padding: 20px;
-        font-size: 18px;
-    }
-    
     .h1-top {
         animation: backInDown 2s ease-in-out;
+        margin-top: 80px!important;
+        width: 100%;
     }
     
     .p-top {
         animation: backInLeft 2s ease;
+        margin: 0 auto;
+        width: 75%;
     }
     
     .coll:nth-child(1) {

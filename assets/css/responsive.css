@@ -50,8 +50,8 @@
     .inicial-home {
         height: 700px;
     }
-    .h1-top {
-        font-size: 35px;
+    .p-top {
+        width: 100%;
     }
     .cta {
         padding-top: 70px;
@@ -232,9 +232,6 @@
 }
 
 @media (max-width: 420px) {
-    .h1-top {
-        font-size: 1.9rem;
-    }
     .links-contato>i {
         font-size: 21px;
     }
@@ -245,17 +242,8 @@
 }
 
 @media (max-width: 378px) {
-    .h1-top {
-        font-size: 2.3rem;
-    }
     .links-contato span {
         font-size: 17px;
         color: var(--primary);
-    }
-}
-
-@media (max-width: 330px) {
-    .h1-top {
-        font-size: 2.3rem;
     }
 }
