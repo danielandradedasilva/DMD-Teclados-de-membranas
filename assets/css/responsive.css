@@ -228,14 +228,6 @@
     .h1-top {
         font-size: 1.9rem;
     }
-    .links-contato>i {
-        font-size: 19px;
-    }
-    .links-contato span {
-        font-size: 16px;
-        color: var(--primary);
-        border: 1px solid burlywood;
-    }
 }
 
 @media (max-width: 378px) {
