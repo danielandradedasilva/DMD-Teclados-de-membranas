@@ -201,6 +201,9 @@
     .container-top-contato {
         margin-top: -50px;
     }
+    .p-frase-contato {
+        font-size: 16px;
+    }
     .links-contato>i {
         font-size: 19px;
     }
